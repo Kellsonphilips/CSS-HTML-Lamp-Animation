@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #e8ac84;
+}
+h1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.dev-text {
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+h1 {
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #e3d4ca;
+    width: 20%;
+    height: 100px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    bottom: 0;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.lamp-item {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+.lamp-top {
+    background: #2d2d2d;
+    height: 100px;
+    width: 10px;
+    top: 0;
+}
+
+.lamp-middle {
+    background: #2d2d2d;
+    border-radius: 50px 50px 0 0;
+    height: 30px;
+    width: 50px;
+    top: 100px;
+}
+
+.lamp-bottom {
+    background: #2d2d2d;
+    border-radius: 100px 100px 0 0;
+    cursor: pointer;
+    height: 80px;
+    width: 150px;
+    top: 120px;
+}
+
+.lamp-light.open {
+    background: #FFF;
+    clip-path: polygon(40% 0, 60% 0, 80% 100%, 20% 100%);
+    box-shadow: 4.0px 8.0px 8.0px rgba(20deg, 5, 5, .5);
+    height: 400px;
+    width: 700px;
+    position: absolute;
+    top: 200px;
+}
+
